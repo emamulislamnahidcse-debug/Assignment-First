@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-text h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Menu */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #5b3df5;
+}
+
+/* Button */
+
+.btn {
+    background: #5b3df5;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: palevioletred;
+}
+
+/* Hero Section */
+
+.hero {
+      background-image:
+        linear-gradient(rgba(5,10,15,20.100), rgba(5,10,15,20,100)),
+        url("assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+    width: 700px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: palevioletred;
+}
+
+
+/* BACKGROUND IMG */
+
+.hero {
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 700px;
+}
+
+
+/* ==========================
+   Meet the Speakers
+========================== */
+
+.speakers {
+    width: 100%;
+    padding: 80px 100px;
+    background-color: #ffffff;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #111827;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.speaker-card {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speaker-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-info {
+    padding: 18px;
+}
+
+.category {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.speaker-info h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.designation {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+/* Card Part */
+
+
+
+/* Pricing Section */
+
+.pricing {
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-card {
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+    background-color: #6b7280;
+}
+
+.price-card h5 {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.price-card h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.price-card ul {
+    margin: 25px 0;
+    padding-left: 20px;
+}
+
+.price-card ul li {
+    margin-bottom: 12px;
+}
+
+.price-card button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background: white;
+    color: blue;
+    cursor: pointer;
+}
+
+.price-card button:hover{
+    background-color:palegreen;
+     
+}
+
+/* Pro Card */
+
+ .highlight{
+    background:#111827;
+    color:white;
+    border:none;
+    transform:scale(1.05);
+    box-shadow:0 15px 30px rgba(0,0,0,0.25);
+}
+
+.highlight button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
+.highlight button:hover{
+    background:palevioletred;
+     
+}
+
+
+
+.highlight ul li{
+    color:#d1d5db;
+}
+
+
+
+
+
+ /* Big Box ai sec */
+
+
+  
+
+.ai-section{
+    width: 80%;
+    height: 350px;
+    margin: 80px auto;
+
+    border: 2px dashed black;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(218, 179, 179);
+}
+
+.ai-section h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #6366F1;
+    margin-bottom: 20px;
+}
+
+.ai-section p{
+    font-size: 28px;
+    color: #8b8b8b;
+    font-weight: 500;
+}
+
+
+
+
+/* Last part */
+
+footer{
+    background-color: darkslategrey;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 80px;
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover{
+    color: #60a5fa;
+} ata amr css
